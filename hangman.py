@@ -5,9 +5,10 @@
 # Hangman Program in python V2
 
 import random
-import words
-import icons
 import constants
+import icons
+import words
+
 
 # Core variables
 word = "hangman"
@@ -23,10 +24,12 @@ def display_hangman(lives):
     for line in current_icon_hm:
         print(line)
 
+
 # Function to chose a word and to set up guessed and current word arrays
 def choose_word():
     random_choice = random.randrange(1, len(available_words))
     return available_words[random_choice]
+
 
 def setup_arrays(word):
     current_word = []
@@ -36,12 +39,14 @@ def setup_arrays(word):
         guessed_word.append("_")
     return current_word, guessed_word
 
+
 # Check if the word has been guessed
 def check_valid(guessed_word, current_word):
     if guessed_word == current_word:
         return True
     else:
         return False
+
 
 # Main function, commanding the rest of the functions
 def main():
