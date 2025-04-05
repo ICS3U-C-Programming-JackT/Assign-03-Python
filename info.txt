@@ -1,0 +1,24 @@
+Hello Ms.Raffin! 
+
+I hope that you enjoy my program so far, 
+but there are a few things that I need 
+you to know before you play.
+
+If you check the constants.py file, it 
+contains a constant called OVERRIDE_WORD, 
+which upon being switched to true will make the 
+mystery word always equal to "hangman".
+
+This is important for testing purposes in cases 
+where I need to know the word, please use this 
+if you need to test my program.
+
+Starting lives are of course also editable for 
+if you want a harder challenge.
+
+Files: 
+words.py: This file contains over 300 words that are randomly selected from
+icons.py: This file contains the icons for the hangman
+constants.py: This file contains different constants so they aren't edited by accident in hangman.py
+hangman.py: This file operates the whole game containing multiple functions that are all used within a small while loop
+info.txt: This file is purely instructional
