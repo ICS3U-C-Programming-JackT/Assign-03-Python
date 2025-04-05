@@ -5,10 +5,10 @@
 # Hangman Program in python V2
 
 import random
+
 import constants
 import icons
 import words
-
 
 # Core variables
 word = "hangman"
